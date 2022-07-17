@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Simulator</string>
+
+    <string name="imagem_do_time_da_casa">Image do team home</string>
+    <string name="cd_imagem_time_visitante">image team away</string>
+    <string name="txt_versus" translatable="false">x</string>
+    <string name="Button_simulator">Botao simalaçao de partidas</string>
 </resources>
