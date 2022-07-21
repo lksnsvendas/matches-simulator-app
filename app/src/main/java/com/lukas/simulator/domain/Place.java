@@ -5,10 +5,10 @@ import android.os.Parcelable;
 import com.google.gson.annotations.SerializedName;
 
 public class Place implements Parcelable {
-    @SerializedName("Nome")
+    @SerializedName("nome")
     private String name;
-    @SerializedName("Imagem")
-    private  String image;
+    @SerializedName("imagem")
+    private String image;
 
     protected Place(Parcel in) {
         name = in.readString();
@@ -38,19 +38,19 @@ public class Place implements Parcelable {
         }
     };
 
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }

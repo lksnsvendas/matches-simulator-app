@@ -6,12 +6,12 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Match(
-    @SerializedName("descrição")
+    @SerializedName("descricao")
     val description: String,
-    @SerializedName("Local")
+    @SerializedName("local")
     val place: Place,
-    @SerializedName("Mandante")
+    @SerializedName("mandante")
     val homeTeam: Team,
-    @SerializedName("Visitante")
+    @SerializedName("visitante")
     val awayTeam: Team
 ) : Parcelable
